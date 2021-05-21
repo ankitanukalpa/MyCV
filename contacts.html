@@ -1,39 +1,58 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>My Contacts</title>
-  </head>
-  <body style="background-color: lightcoral">
-    <ul>
-      <li>Instagram -<em>nt_a_stranger</em></li>
-      <li>Facebook- <em>An Ki T</em></li>
-      <li>Mail- <em>sathuaankit@gamil.com</em> </li>
-    </ul>
-    <form  action="mailto:sathuaankit@gmail.com" method="post" enctype="text/plain">
-    <label for="fname">First name:</label>
-    <input type="text" id="fname" name="fname" value="ex:-Abc"><br>
-    <label for="lname">Last name:</label>
-    <input type="text" id="lname" name="lname"value="ex:-Abc"><br>
-    <label for="">Mail:</label>
-    <input type="email" name="" value="eg:-abc@mail.com"><br>
-    <label for="COntact No.">Phone Number:</label>
-    <input type="Contact Number" name="Phone" value="Ph. No."><br>
-    <label for="">Gender:</label><br>
-    <input type="radio" id="male" name="gender" value="male">
-    <label for="male">Male</label><br>
-    <input type="radio" id="female" name="gender" value="female">
-    <label for="female">Female</label><br>
-    <input type="radio" id="other" name="gender" value="other">
-    <label for="other">Other</label><br>
-    <label for="">DOB:</label>
-    <input type="date" name="" value=""><br>
-    <label for="">Ask Me:</label><br>
-    <textarea name="Type here" rows="12" cols="15"></textarea><br>
 
+<head>
+  <meta charset="utf-8">
+  <title>My Contacts</title>
+</head>
+
+<body style="background-color: lightcoral">
+  <ul>
+    <li>Instagram -<em>nt_a_stranger</em></li>
+    <li>Facebook- <em>An Ki T</em></li>
+    <li>Mail- <em>sathuaankit@gamil.com</em> </li>
+  </ul>
+  <form action="mailto:sathuaankit@gmail.com" method="post" enctype="text/plain">
+    <table>
+      <tr>
+        <td><label for="fname">First name:</label></td>
+        <td><input type="text" id="fname" name="fname" value="ex:-Abc"><br></td>
+      </tr>
+      <tr>
+        <td><label for="lname">Last name:</label></td>
+        <td> <input type="text" id="lname" name="lname" value="ex:-Abc"><br></td>
+      </tr>
+      <tr>
+        <td><label for="">Mail:</label></td>
+        <td><input type="email" name="" value="eg:-abc@mail.com"><br></td>
+      </tr>
+      <tr>
+        <td><label for="COntact No.">Phone Number:</label></td>
+        <td><input type="Contact Number" name="Phone" value="Ph. No."><br></td>
+      </tr>
+      <tr>
+        <td> <label for="">Gender:</label><br></td>
+        <td> <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label><br>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label><br>
+          <input type="radio" id="other" name="gender" value="other">
+          <label for="other">Other</label><br>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="">DOB:</label></td>
+        <td> <input type="date" name="" value=""><br></td>
+      </tr>
+      <tr>
+        <td> <label for="">Ask Me:</label><br></td>
+        <td> <textarea name="Type here" rows="3" cols="30"></textarea><br></td>
+      </tr>
+    </table>
     <input type="radio" name="" value="">
     <label for="">I Have Read All Terms And Services</label><br>
     <input type="submit" name="" value="Submit">
-    </form>
-  </body>
+  </form>
+</body>
+
 </html>
